@@ -1,104 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Index</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-</head>
-<body>
-
-  <style>
-   body {
-    background-color: rgb(218, 215, 205);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-   }
-
-   h1 {
-    color: rgb(52, 78, 65);
-   }
-
-   #quemsou, #minhashab { 
-     color: rgb(52, 78, 65); 
-   } 
-   
-   h3 { 
-      color: rgb(88, 129, 87); 
-    } 
-
-    a {
-      color: rgb(88, 129, 87);
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-   header {
-    display: flex;
-    background-color: rgb(52, 78, 65);
-    padding: 15px;
-    color: white;
-   }
-    
-    li{
-      font-style: italic;
-      font-size: 18px;
-    }
-
-    img {
-      border-radius: 100%;
-    }
-   </style>  
-
-
-  <header>
-  <div><a href="#">Índice</a></div>
-  <div><a href="#quemsou">Quem Sou</a></div>
-  <div><a href="#minhashab">Minhas Habilidades</a></div>
-  </header>
-
-  <h1>Francisco Elano Olavo Saraiva Evaristo</h1>
-  <img src="/imagens/perfil.jpeg" alt="Foto do perfil de Elano Evaristo" 
-  height="300">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body>
   
-  <h2 id="quemsou">Quem Sou</h2>
-  <p>Sou Brasileiro, tenho 27 anos moro em <em>Ipaporanga no Ceará</em> sou casado e apaixonado 
-    por tecnologia,<br> 
-    <strong>formado em técnico de Informatica e Redes de computadores.</strong><br>
-    Atualmente trabalho como <strong>freelance de Designer gráfico</strong> e estou estudando 
-    <em>Desenvolvimento de Software</em> <br>na <a target="_blank" 
-    href="https://www.betrybe.com/">Trybe</a>, uma escola que em sua metodologia de 
-    ensino <br> provoca em seus alunos uma experiência real do dia a dia de trabalho 
-    de um desenvolvedor de software.<br></p>
-    Você por conhecer mais de mim <a target="_blank" 
-    href="http://fewebdesign.wordpress.com/ ">aqui</a>!
+    <header>
+      <div><a href="#">Índice</a></div>
+      <div><a href="#quemsou">Quem Sou</a></div>
+      <div><a href="#minhashab">Minhas Habilidades</a></div>
+    </header>
+
+    <div class="perfil">
+      <h1>Francisco Elano Olavo Saraiva Evaristo</h1>
+      <img src="/imagens/perfil.jpeg" alt="Foto do perfil de Elano Evaristo" 
+      height="250">
+      
+      <h2 id="quemsou">
+        Quem Sou
+      </h2>
+
+      <p>
+        Sou Brasileiro, tenho 27 anos moro em <em>Ipaporanga no Ceará</em> sou casado e apaixonado 
+        por tecnologia,<br><strong>formado em técnico de Informatica e Redes de computadores.</strong><br>
+        Atualmente trabalho como <strong>freelance de Designer gráfico</strong> e estou estudando 
+        <em>Desenvolvimento de Software</em> <br>na <a target="_blank" href="https://www.betrybe.com/">Trybe</a>, uma escola que em sua metodologia de 
+        ensino <br> provoca em seus alunos uma experiência real do dia a dia de trabalho 
+        de um desenvolvedor de software.<br>Você por conhecer mais de mim <a target="_blank" 
+        href="http://fewebdesign.wordpress.com/ ">aqui</a>!
+      </p>
+
+    </div>
+
+    <div class #habilidades>
+
+      <h2 id="minhashab">
+        Minhas Habilidades
+      </h2>
+      
+      <h3>
+        Web
+      </h3>
+      
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>PHP</li>
+        <li>JavaScript</li>
+      </ul>
+      
+      <h3>
+        Gráfico
+      </h3>
+      
+      <ul>
+        <li>CorelDraw</li>
+        <li>Photoshop</li>
+        <li>Inskape</li>
+        <li>Gimp</li>
+      </ul>
+
+      <h3>
+        Sistemas
+      </h3>
+
+      <ul>
+        <li>Windowns</li>
+        <li>Linux</li>
+        <li>Servidores</li>
+      </ul><br><br>
+    </div>
 
 
-    <h2 id="minhashab">Minhas Habilidades</h2>
-    <h3>Web</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>PHP</li>
-      <li>JavaScript</li>
-    </ul>
-    <h3>Gráfico</h3>
-    <ul>
-      <li>CorelDraw</li>
-      <li>Photoshop</li>
-      <li>Inskape</li>
-      <li>Gimp</li>
-    </ul>
-    <h3>Sistemas</h3>
-    <ul>
-      <li>Windowns</li>
-      <li>Linux</li>
-      <li>Servidores</li>
-    </ul><br><br>
+      <a href="/imagens/perfil.jpeg">Foto</a><br>
+      <a target="_blank" href="http://fewebdesign.wordpress.com/ ">FeWebDesign</a>
 
-
-    <a href="/imagens/perfil.jpeg">Foto</a><br>
-    <a target="_blank" href="http://fewebdesign.wordpress.com/ ">FeWebDesign</a>
-
-</body>
+  </body>
 </html>

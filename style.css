@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(218, 215, 205);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: rgb(52, 78, 65);
+}
+
+#quemsou, #minhashab { 
+  color: rgb(52, 78, 65); 
+} 
+        
+h3 { 
+  color: rgb(88, 129, 87); 
+} 
+
+a {
+    color: rgb(88, 129, 87);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+  display: flex;
+  background-color: rgb(52, 78, 65);
+  padding: 15px;
+  color: white;
+}
+
+.perfil h1 {
+  margin:10px 0px 10px 300px;
+}
+
+ .perfil img {
+  border-radius: 100%;
+  float: left;
+  margin-left: 50px;
+  margin-right: 20px;
+} 
+.perfil p {
+  margin: 10px;
+}
+
+li{
+  font-style: italic;
+  font-size: 18px;
+}
+
