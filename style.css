@@ -9,12 +9,16 @@ h1 {
 }
 
 #quemsou, #minhashab { 
-  color: rgb(52, 78, 65); 
-} 
-        
-h3 { 
-  color: rgb(88, 129, 87); 
-} 
+  color: rgb(52, 78, 65);
+  align-items: center;
+  margin: 20px; 
+}
+
+#minhashab {
+  margin:30px 0px 10px 300px;
+  /* padding-right: 300px; */
+  align-items: center;
+}
 
 a {
     color: rgb(88, 129, 87);
@@ -22,7 +26,7 @@ a {
     text-decoration: none;
 }
 
-header {
+.menu {
   display: flex;
   background-color: rgb(52, 78, 65);
   padding: 15px;
@@ -43,8 +47,27 @@ header {
   margin: 10px;
 }
 
-li{
+.habilidades { 
+  display: flex;
+  /* padding: 0% 35%; */
+  /* align-items: stretch; */
+  /* align-items: center;  */
+}
+.habilidades h3 { 
+  color: rgb(88, 129, 87); 
+} 
+
+.habilidades ul {
+  padding: 0px 30px;
+}
+
+.habilidades li {
   font-style: italic;
   font-size: 18px;
 }
 
+.bottom {
+  /* margin: 50px 50px 50px 50px; */
+  padding: 5px;
+  display: flex;
+}
