@@ -1,64 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-color: rgb(218, 215, 205);
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 
-h1 {
-  color: rgb(52, 78, 65);
-}
-
-#quemsou, #minhashab { 
-  color: rgb(52, 78, 65);
-  align-items: center;
-  margin: 20px; 
-}
-
-#minhashab {
-  margin:30px 0px 10px 300px;
-  /* padding-right: 300px; */
-  align-items: center;
-}
-
-a {
-    color: rgb(88, 129, 87);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.menu {
+.header {
   display: flex;
+  text-align: center;
   background-color: rgb(52, 78, 65);
-  padding: 15px;
+  padding: 8px;
+}
+
+.header > div:nth-child(2) {
+  margin-left: auto;
+  margin-right: -100px;
+}
+
+.header a{
+  max-width: 60%;
+  margin-left: 75px;
+  margin-right: 65px;
   color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.market-text {
+  max-width: 60%;
+  margin: auto;
 }
 
 .perfil h1 {
-  margin:10px 0px 10px 300px;
+  margin:10px;
+  color: rgb(52, 78, 65);
+  text-align: center;
 }
 
- .perfil img {
+.quemsou { 
+  color: rgb(52, 78, 65);
+  /* text-align: center; */
+  /* margin: 25px 0px 0px 0px;  */
+}
+
+.perfil img {
   border-radius: 100%;
   float: left;
-  margin-left: 50px;
+  max-width: 35%;
+  margin-top: 30px;
+  margin-left: 70px;
   margin-right: 20px;
 } 
+
 .perfil p {
-  margin: 10px;
+  margin: 35px;
+  text-align: justify;
+}
+
+.perfil a[target="_blank"] {
+  color: rgb(88, 129, 87);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.minhashab {
+  color: rgb(52, 78, 65);
+  align-items: center;
+  margin: 20px;   
+  text-align: center;
 }
 
 .habilidades { 
   display: flex;
-  /* padding: 0% 35%; */
-  /* align-items: stretch; */
+  text-align: center;
+  /* display: flex; */
   /* align-items: center;  */
+  padding: 0% 20%;
 }
-.habilidades h3 { 
-  color: rgb(88, 129, 87); 
+.habilidades h3 {
+  color: rgb(88, 129, 87);
+  text-align: center; 
 } 
 
 .habilidades ul {
-  padding: 0px 30px;
+  padding: 0px 80px 31px;
 }
 
 .habilidades li {
@@ -67,7 +96,17 @@ a {
 }
 
 .bottom {
-  /* margin: 50px 50px 50px 50px; */
-  padding: 5px;
   display: flex;
+  text-align: center;
+  background-color: rgb(52, 78, 65);
+  padding: 3px;
+}
+
+.bottom a{
+  max-width: 60%;
+  margin-left: 75px;
+  margin-right: -55px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
 }
